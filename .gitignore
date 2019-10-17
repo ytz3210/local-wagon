@@ -1,0 +1,38 @@
+# Created by .ignore support plugin (hsz.mobi)
+*.iml
+.idea
+target
+wagon_tracker_log
+.idea/inspectionProfiles/
+.idea/uiDesigner.xml
+api/target/classes/com/el/config/ShiroConfig.class
+api/target/classes/com/el/config/WebMvcConfig.class
+api/target/classes/com/el/filter/
+api/target/classes/com/el/shiro/
+api/target/generated-sources/
+api/target/generated-test-sources/
+common/target/classes/com/el/common/source/Constant.class
+common/target/generated-sources/
+common/target/generated-test-sources/
+dao/src/main/java/target/
+dao/target/generated-sources/
+dao/target/generated-test-sources/
+entity/target/generated-sources/
+entity/target/generated-test-sources/
+entity/target/surefire-reports/
+service/target/classes/com/el/RedisService.class
+service/target/generated-sources/
+service/target/generated-test-sources/
+将删除 .gitignore
+将删除 api/pom.xml
+将删除 api/src/
+将删除 common/pom.xml
+将删除 common/src/
+将删除 dao/pom.xml
+将删除 dao/src/
+将删除 entity/pom.xml
+将删除 entity/src/
+将删除 pom.xml
+将删除 service/pom.xml
+将删除 service/src/
+将删除 "wagon_tracker_log\\wagon_tracker.log"

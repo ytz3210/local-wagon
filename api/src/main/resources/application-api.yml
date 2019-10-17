@@ -1,0 +1,54 @@
+# 外部接口api
+enternal:
+
+    # 请求地址
+    url: https://testopen.95155.com/save/apis/
+
+    # 登录 获取token
+    login: login/
+
+    # 位置信息
+    location:
+        # 车辆最新位置查询(车牌号接口)
+        latest_addr: vLastLocationV3/
+        # 多车最新位置查询
+        multi_car_lastest_addr: vLastLocationMultiV4/
+        # 车辆轨迹查询(车牌号)接口
+        vehicle_trajectory: vHisTrack24/
+        # 车辆签到接口
+        vehicle_check_in: vSignIn/
+
+    # 车辆驶入
+    drive_in:
+        # 自定义区域注册接口
+        custom_area_regist: areaReg/
+        # 多边形区域注册接口
+        polygonal_area_regist: areaPolygonReg/
+        # 车辆订阅接口
+        vehicle_subscription: vnoReg/
+        # 车辆事件通知接口
+        vehicle_evebt_subscription: areamsg/
+        # 删除车辆订阅接口
+        delete_vehicle_subscription: vnoDel/
+        # 删除自定义区域接口
+        delete_custom_area: areaDel/
+
+    # 车辆驶出
+    drive_out:
+        # 自定义区域注册接口
+        custom_area_regist: areaReg/
+        # 多边形区域注册接口
+        polygonal_area_regist: areaPolygonReg/
+        # 车辆订阅接口
+        vehicle_subscription: vnoReg/
+        # 车辆事件订阅接口
+        vehicle_evebt_subscription: areamsg/
+        # 删除车辆订阅接口
+        delete_vehicle_subscription: vnoDel/
+        # 删除自定义区域接口
+        delete_custom_area: areaDel/
+        # 车辆在途运抵预判
+        vehicle_in_prejudge: vArrivePredictV3/
+
+
+
