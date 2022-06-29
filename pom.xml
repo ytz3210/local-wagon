@@ -44,7 +44,7 @@
         <fastjson.version>1.2.31</fastjson.version>
         <json.version>2.4</json.version>
         <sinoiov-sdk.version>6.0</sinoiov-sdk.version>
-        <poi.version>3.15</poi.version>
+        <poi.version>4.1.1</poi.version>
         <httpclient-cache.version>4.2.5</httpclient-cache.version>
         <httpmime.version>4.5.2</httpmime.version>
     </properties>
